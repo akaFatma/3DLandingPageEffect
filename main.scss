@@ -1,0 +1,34 @@
+body {
+    background: rgb(22, 22, 22);
+    color: rgb(55, 55, 55);
+    height: 300vh;
+    font-family: 'Bebas Neue';
+}
+section {
+    height: 100vh;
+}
+.container {
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    gap: 4em;
+    padding: 4em;
+
+    h1 {
+        font-size: 7vw;
+
+    }
+    p {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+}
+
+
